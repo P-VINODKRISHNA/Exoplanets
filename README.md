@@ -1,4 +1,4 @@
-# Foobar
+# EXOPLANET
 
 Exoplanet is a golang project to do crud operation and find fuel cost to reach exoplanet.
 
