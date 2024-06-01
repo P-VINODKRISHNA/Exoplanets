@@ -1,0 +1,14 @@
+HTTP_PORT="7008"
+RUN_MODE="dev"
+POSTGRES_CONNECTION_STRING="host=host.docker.internal port=5432 user=postgres dbname=postgres password=vinod123 sslmode=disable"
+
+LOG_LEVEL="DEBUG"
+
+########Routers########
+MAIN_PATH="/Exoplanet"
+ADD_EXOPlANET_PATH="/addExoPlanet"
+VIEW_EXOPlANET_PATH="/view"
+VIEW_EXOPlANET_BY_NAME_PATH="/id"
+UPDATE_EXOPlANET_BY_NAME_PATH="/updateExoPlanet"
+DELETE_EXOPlANET_BY_NAME_PATH="/delete"
+CALCULATE_FUEL_ESTIMATION_PATH="/calculateFuel"
